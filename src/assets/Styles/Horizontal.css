@@ -1,0 +1,69 @@
+.scroll-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-section h1 {
+    color: whitesmoke;
+}
+
+.scroll-section-outer {
+    overflow: hidden;
+
+}
+
+.scroll-section-inner {
+    height: 100vh;
+    width: 400vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem 2.2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.5);
+    border-left-color: rgba(225, 225, 225, 0.1);
+    border-right-color: rgba(225, 225, 225, 0.1);
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3))
+}
+
+.container {
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-section-outer {
+    background-image: url('/images/elliot.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+
+.card-img-top {
+    width: 100%;
+}
+
+.title {
+    padding-bottom: 2rem;
+}
